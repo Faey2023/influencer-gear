@@ -45,6 +45,7 @@ nav li a {
     display: flex;
     margin: 120px;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .banner-title{
@@ -70,6 +71,16 @@ nav li a {
     color: #FFF;
 }
  /* logo styles */
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
 
  /* product styles */
 
