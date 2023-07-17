@@ -86,4 +86,35 @@ nav li a {
 
  /* feature styles */
 
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 96px;
+    width: 1440px;
+    margin-left: 165px;
+}
+
+.feature-title{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 2.375rem;
+    font-weight: 700;
+}
+.feature-description{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 88px;
+}
+
+#btn-join{
+    background-color: #E02C6D;
+    align-items: center;
+    padding: 10px 24px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+}
+
  /* footer styles */
