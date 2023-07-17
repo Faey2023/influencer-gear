@@ -41,11 +41,15 @@ nav li a {
 
  /* banner styles */
 
- .banner-container{
+.banner-container{
     display: flex;
     margin: 120px;
     justify-content: space-between;
     margin-bottom: 100px;
+}
+
+.banner-container img {
+    width: auto;
 }
 
 .banner-title{
@@ -118,3 +122,46 @@ nav li a {
 }
 
  /* footer styles */
+.footer{
+    background-color: #0A0826;
+    width: auto;
+    height: 239px;
+    text-align: center;
+    padding-top: -40px;
+    
+}
+.footer-title{
+    padding-top: 50px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.footer-description{
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+/* media query  */
+
+/* small devices  */
+@media screen and (max-width:576px) {
+    nav{
+        margin: 0;
+    }
+    .banner-container{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* medium devices  */
+@media screen and (min-width:576px) and (max-width:960px) {
+    .banner-container{
+        flex-direction: column;
+    }
+}
