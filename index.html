@@ -21,13 +21,13 @@
                 <li> <a href=""> Sign up</a></li>
                 <li><a href=""> Login</a></li>
                 <li> <a href=""><img src="images/icon/akar-icons_search.jpg" alt=""></a></li>
-                <li><a href=""> <img src="images/icon/clarity_shopping-cart-outline-badged.jpg" alt=""></a></li>
+                <li><a id="cart" href=""> <img src="images/icon/clarity_shopping-cart-outline-badged.jpg" alt=""></a></li>
               </ul>   
         </nav>
     <!-- banner section  -->
     <div class="banner-container">
         <div class="banner-info">
-            <h1 class="banner-title">Start your Journey as <br> an Influencer</h1>
+            <h1 class="banner-title">Start your Journey as an Influencer</h1>
             <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
             <button id="btn-prebook">Prebook now</button>
         </div>
@@ -55,7 +55,7 @@
              <h3 class="product-title">Popular Collection</h3>
             <div class="products">
                 <div class="product-img">
-                    <img src="images/img/tripod.png" alt="">
+                    <img class="pricing" src="images/img/tripod.png" alt="">
                     <h3 class="product-name">Flex Tripod</h3>
                     <p class="product-price">5048৳</p>
                     <!-- rating  -->
@@ -67,7 +67,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/mic.png" alt="">
+                    <img class="pricing" src="images/img/mic.png" alt="">
                     <h3 class="product-name">Microphone</h3>
                     <p class="product-price">12025৳</p>
                     <!-- rating  -->
@@ -79,7 +79,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/airpod.png" alt="">
+                    <img class="pricing" src="images/img/airpod.png" alt="">
                     <h3 class="product-name">Airbuds</h3>
                     <p class="product-price">10000৳</p>
                     <!-- rating  -->
@@ -91,7 +91,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/drone.png" alt="">
+                    <img class="pricing" src="images/img/drone.png" alt="">
                     <h3 class="product-name">Drone</h3>
                     <p class="product-price">98025৳</p>
                     <!-- rating  -->
@@ -103,7 +103,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/lights.png" alt="">
+                    <img class="pricing" src="images/img/lights.png" alt="">
                     <h3 class="product-name">Light setup</h3>
                     <p class="product-price">120000৳</p>
                     <!-- rating  -->
@@ -115,7 +115,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/setup.png" alt="">
+                    <img class="pricing" src="images/img/setup.png" alt="">
                     <h3 class="product-name">Photoshoot set</h3>
                     <p class="product-price">82040৳</p>
                     <!-- rating  -->
@@ -127,7 +127,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/camera.png" alt="">
+                    <img class="pricing" src="images/img/camera.png" alt="">
                     <h3 class="product-name">Vlogging Camera</h3>
                     <p class="product-price">180080৳</p>
                     <!-- rating  -->
@@ -139,7 +139,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/single-light.png" alt="">
+                    <img class="pricing" src="images/img/single-light.png" alt="">
                     <h3 class="product-name">Green Screen</h3>
                     <p class="product-price">2548৳</p>
                     <!-- rating  -->
@@ -151,7 +151,7 @@
                     <p class="product-info">Wordwide shifting<br>available<br>Buyers protection possible!</p>
                 </div>
                 <div class="product-img">
-                    <img src="images/img/action.png" alt="">
+                    <img class="pricing" src="images/img/action.png" alt="">
                     <h3 class="product-name">Action Camera</h3>
                     <p class="product-price">38000৳</p>
                     <!-- rating  -->
@@ -172,7 +172,7 @@
         </div>
         <div class="features-info">
             <h2 class="feature-title">Featured products at one place</h2>
-            <p class="feature-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit mollit. <br> Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="feature-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             <button id="btn-join">Join Now</button>
         </div>
 
@@ -181,7 +181,8 @@
     <!-- footer section  -->   
     <footer class="footer">
           <h3 class="footer-title">Influencer products</h3>
-          <p class="footer-description">Copyright © 2023  influencer products<br>All rights reserved</p>
+          <p class="footer-description">Copyright © 2023  influencer products</p>
+            <p class="rights">All rights reserved</p>
           <!-- instgram logo  -->
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
             <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" fill="white"/>

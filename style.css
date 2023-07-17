@@ -63,6 +63,11 @@ nav li a {
     font-size: 3.25rem;
     font-weight: 700;
     font-family: Poppins;
+    max-width: 582px;
+}
+.banner-img{
+    background-image: url(images/Circle\ design.svg);
+    width: auto;
 }
 .banner-description{
     color: #3A3A3A;
@@ -162,6 +167,7 @@ nav li a {
     font-size: 1rem;
     font-weight: 700;
     height: 88px;
+    width: 502px;
 }
 
 #btn-join{
@@ -191,29 +197,85 @@ nav li a {
     padding-top: 50px;
 }
 
-.footer-description{
+.footer-description, .rights{
     color: #D9DBE1;
     font-family: Manrope;
     font-size: 0.875rem;
     font-weight: 700;
 }
+.footer-description{
+    padding-bottom: 3px;
+}
 /* media query  */
 
 /* small devices  */
 @media screen and (max-width:576px) {
-    nav{
-        margin: 0;
-    }
-    .banner-container{
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-    }
+   ul > li {
+    visibility: hidden;
+   }
+   #cart{
+    visibility: visible;
+   }
+   .nav-title{
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 0;
+   }
+   .banner-container{
+    flex-direction: column-reverse;
+   }
+   .banner-title{
+    width: 200px;
+    text-align: center;
+    font-size: 1.75rem;
+   }
+   .banner-img img{
+    max-width: 202px;
+   }
+   .product-section{
+    margin: 0;
+    padding: 0 15px;
+   }
+   .products{
+    grid-template-columns: 1fr;
+   }
+   .product-img .pricing{
+    width: 300px;
+    height: 256px;
+   }
+   .features{
+    flex-direction: column-reverse;
+    margin: 0;
+   }
+   .features img{
+    max-width: 300px;
+    align-items: center;
+   }
+   .feature-title{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 250px;
+    padding-bottom: 15px;
+   }
+   .feature-description{
+    width: 392px;
+    padding-bottom: 20px;
+   }
+   #btn-join{
+    align-items: center;
+   }
+   .footer{
+    max-width: 360px;
+   }
+   .footer-title{
+    font-size: 1rem;
+   }
+   .footer-description{
+    padding-bottom: 5px;
+}
 }
 
 /* medium devices  */
 @media screen and (min-width:576px) and (max-width:960px) {
-    .banner-container{
-        flex-direction: column;
-    }
 }
